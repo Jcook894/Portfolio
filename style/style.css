@@ -17,3 +17,8 @@ body{
 #headers {
   color: white;
 }
+
+#Portfolio{
+  background-color: grey;
+  border-radius: 10px;
+}
