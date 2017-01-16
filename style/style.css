@@ -1,8 +1,8 @@
-
-.navbar{
-
+body{
   background-color: black;
-
+}
+.navbar{
+  background-color: black;
 }
 
 .aboutMe{
@@ -14,6 +14,6 @@
   height: 30% ;
 }
 
-#welcome {
+#headers {
   color: white;
 }
