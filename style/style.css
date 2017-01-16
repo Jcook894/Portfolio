@@ -3,3 +3,16 @@
   background-color: black;
 
 }
+
+.aboutMe{
+  background-color: gray;
+}
+
+.img-circle {
+  width: 50% ;
+  height: 50% ;
+}
+
+.background-image {
+  background-size: cover;
+}
