@@ -18,9 +18,10 @@ body{
   border-radius:  10px;
 }
 
-#img{
-  width: 200px;
-  height: 200px;
+#shadow{
+-webkit-box-shadow: 10px 6px 12px 4px rgba(0, 0, 0, 0.62);
+-moz-box-shadow:    10px 6px 12px 4px rgba(0, 0, 0, 0.62);
+box-shadow:         10px 6px 12px 4px rgba(0, 0, 0, 0.62);
 }
 
 #headers {
