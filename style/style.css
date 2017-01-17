@@ -18,6 +18,11 @@ body{
   border-radius:  10px;
 }
 
+#img{
+  width: 200px;
+  height: 200px;
+}
+
 #headers {
   color: white;
 }
