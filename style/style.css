@@ -13,13 +13,16 @@ body{
   width: 200px ;
   height: 200px ;
 }
+.footer{
+  background-color: black;
+  border-radius:  10px;
+}
 
 #headers {
   color: white;
 }
 
 #Portfolio{
-  background-color: grey;
-  border-radius: 10px;
+  background-color: white;
   padding: 10px 10px 10px 10px;
 }
