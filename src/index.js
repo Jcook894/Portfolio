@@ -1,3 +1,2 @@
-let message = 'REACT IS WORKING SON!';
-
-console.log(message);
+var React = require('react');
+var ReactDOM = require('react-dom');
