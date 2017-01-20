@@ -1,6 +1,13 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var Skills = require('./app.jsx');
-var Carousel = require('./Portfolio.jsx')
+var Carousel = require('./Portfolio.jsx');
+var AboutMe = require('./app.jsx');
 
-ReactDOM.render(<Carousel />, document.getElementById('app'));
+
+ReactDOM.render(<Carousel />
+, document.getElementById('Portfolio'));
+
+ReactDOM.render(
+  <AboutMe />,
+  document.getElementById('About')
+);

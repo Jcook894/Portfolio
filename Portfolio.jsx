@@ -1,22 +1,25 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-
 var Carousel = require('nuka-carousel');
 
-const App = React.createClass({
+const Slider = React.createClass({
   mixins: [Carousel.ControllerMixin],
   render() {
     return (
+      <div>
+        <h1>Featured Work</h1>
       <Carousel>
-        <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide1"/>
-        <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide2"/>
-        <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide3"/>
-        <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide4"/>
-        <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide5"/>
-        <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide6"/>
+        <img src="../assets/hood.png" className="img-responsive"/>
+        <img src="../assets/reader.png" className="img-responsive"/>
+        <img src="../assets/frogger.png" className="img-responsive"/>
+        <img src="../assets/sidescroller.png" className="img-responsive"/>
+        <img src="../assets/webOpt.png" className="img-responsive"/>
+        <img src="../assets/hood.png" className="img-responsive"/>
+        <img src="../assets/resume.png" className="img-responsive"/>
       </Carousel>
+      </div>
     )
   }
 });
 
-module.exports = App;
+module.exports = Slider;
