@@ -2,18 +2,19 @@
 <html>
 
   <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|VT323" rel="stylesheet">
 
+    <link rel="stylesheet" href="style/animations.css">
 
+    <link rel="stylesheet" href="style/style.css" />
   </head>
     <body>
-
 
   <!-- Navbar -->
     <nav class="navbar navbar-inverse bg-inverse navbar-fixed-top">
@@ -38,65 +39,57 @@
         </div>
       </nav>
   <!-- Header for porfolio -->
-  <div class="jumbotron" style="background-image: url(assets/skyline.jpg); background-size: cover;">
-    <div class="container text-center" id="About">
-      <h2 id="headers">Welcome to my portfolio!</h2>
-      <img class="img-circle" src="assets/pic.JPG" />
-      <p style="color: white;">
-        Junior Front-End web developer
-      </p>
-      <h3 id="headers">Languages | Frameworks</h2>
-        <p id="headers">
-          HTML5, CSS3, JavaScript, jQuery,
-           Knockout.js <br /> Jasmine, Phaser HTML 5 framework, React.js
-        </p>
+  <div class="jumbotron" >
+    <div class="container text-center slideUp">
+      <h1 class="headers"> Julian Cook </h1>
+      <h2 class="center">
+        Junior Front-End Web Developer
+      </h2>
     </div>
   </div>
 
+
+<!-- About me contents -->
+<div id="About" class="container-fluid text-center">
+  <div id="app">
+  </div>
+</div>
 <!-- Portfolio contents -->
-  <div class="container-fluid bg-3 text-center" id="Portfolio">
-    <h2>Featured Work</h2>
+  <div class="container-fluid bg-3 text-center sect sectTwo" id="Portfolio">
+    <h2 class="col-md-12 headers">Featured Work</h2>
   <div class="col-md-6">
-    <h4>Side Scrolling Shooter</h4>
+
     <img class="img-responsive" id="shadow" src="assets/sidescroller.png" data-toggle="modal" data-target="#myModal" />
   </div>
   <div class="col-md-6">
-    <h4>Neighborhood Map</h4>
       <img class="img-responsive" id="shadow" src="../assets/hood.png"  data-toggle="modal" data-target="#myModal"/>
   </div>
   <div class="col-md-6 ">
-    <h4>Frogger-style Arcade Game</h4>
       <img class="img-responsive" id="shadow" src="assets/frogger.png"  data-toggle="modal" data-target="#myModal"/>
   </div>
   <div class="col-md-6">
-    <h4>Feed Reader Testing</h4>
 
       <img class="img-responsive" id="shadow" src="assets/reader.png"  data-toggle="modal" data-target="#myModal"/>
   </div>
   <div class="col-md-6">
-    <h4>My Resume</h4>
+
       <img class="img-responsive" id="shadow" src="./assets/resume.png"  data-toggle="modal" data-target="#myModal"/>
   </div>
   <div class="col-md-6">
-    <h4>Website Optimization</h4>
       <img class="img-responsive" id="shadow" src="../assets/webOpt.png"  data-toggle="modal" data-target="#myModal" />
 
   </div>
 </div>
 
+<div id="Contact" class="container text-center">
+  <h1 class="page-header">Yoooo</h1>
+</div>
+
 
 <!-- Footer content -->
-<div class="container-fluid text-center">
+<div class="container-fluid text-center" style="background-color: black;">
   <footer class="footer">
   <h4> jcook894@icloud.com | 860-614-9115 </h4>
-      <a href="https://github.com/Jcook894">
-          <i class="fa fa-github-alt fa-2x" aria-hidden="true"></i>
-        </a>
-    &nbsp;
-      <a href="https://www.linkedin.com/in/juliancook94
-">
-        <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
-      </a>
 
     <h4>Written and coded by: Julian Cook</h4>
   </footer>
@@ -104,13 +97,8 @@
 
 <!-- Modal Content -->
 
-</div>
+
 <!-- React Test -->
-
-<div id="app">
-  
-</div>
-
 <script src="index.js"></script>
 
 

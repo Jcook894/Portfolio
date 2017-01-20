@@ -1,19 +1,21 @@
-body{
-  background-color: black;
-}
-.navbar{
-  background-color: black;
+html,body{
+  font-family: 'VT323', monospace;
+  height: 100%;
+  background-color: white;
+
 }
 
-.aboutMe{
-  background-color: gray;
+p{
+  font-size: 20px;
 }
 
 .img-circle {
   width: 200px ;
   height: 200px ;
 }
-.footer{
+
+
+.footer {
   background-color: black;
   border-radius:  10px;
 }
@@ -24,11 +26,55 @@ body{
 box-shadow:         10px 6px 12px 4px rgba(0, 0, 0, 0.62);
 }
 
-#headers {
+.jumbotron{
   color: white;
+  height: 100%;
+  background-image: url("../assets/skyline.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  margin-bottom: 0;
+
+}
+
+.center {
+  padding: 70px 0;
+  text-align: center;
+}
+
+#About {
+  height: 75%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+ @media only screen and (max-width: 700px) {
+
+   #About{
+     height: 100%;
+     padding: inherit;
+   }
+
+}
+
+
+.headers {
+  font-family: 'Press Start 2P', monospace;
 }
 
 #Portfolio{
-  background-color: #d9d9d9;
+  background-color: white;
   padding: 10px 10px 10px 10px;
+}
+
+#Contact {
+  height: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }
