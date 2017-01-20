@@ -9,6 +9,7 @@ p{
   font-size: 20px;
 }
 
+
 .img-circle {
   width: 200px ;
   height: 200px ;
@@ -45,19 +46,10 @@ box-shadow:         10px 6px 12px 4px rgba(0, 0, 0, 0.62);
 }
 
 #About {
+  color: white;
+  background-color: #666666;
+  padding: 50px 10px 100px 10px;
 
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
-}
-
- @media only screen and (max-width: 700px) {
-
-   #About{
-
-     padding: inherit;
-   }
 
 }
 
@@ -67,14 +59,20 @@ box-shadow:         10px 6px 12px 4px rgba(0, 0, 0, 0.62);
 }
 
 #Portfolio{
+  color: #666666;
   background-color: white;
   padding: 10px 10px 10px 10px;
 }
 
 #Contact {
   height: 50%;
+  background: url(../assets/snes.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  color: inherit;
+  background-color: inherit;
+  padding: 10px 10px 10px 10px;
 
 }

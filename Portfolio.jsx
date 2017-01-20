@@ -5,17 +5,20 @@ var Carousel = require('nuka-carousel');
 const Slider = React.createClass({
   mixins: [Carousel.ControllerMixin],
   render() {
+
+
     return (
       <div>
-        <h1>Featured Work</h1>
+
+        <h2 className="headers page-header style">Featured Work</h2>
       <Carousel>
-        <img src="../assets/hood.png" className="img-responsive"/>
-        <img src="../assets/reader.png" className="img-responsive"/>
-        <img src="../assets/frogger.png" className="img-responsive"/>
-        <img src="../assets/sidescroller.png" className="img-responsive"/>
-        <img src="../assets/webOpt.png" className="img-responsive"/>
-        <img src="../assets/hood.png" className="img-responsive"/>
-        <img src="../assets/resume.png" className="img-responsive"/>
+        <img src="../assets/hood.png"/>
+        <img src="../assets/reader.png"/>
+        <img src="../assets/frogger.png"/>
+        <img src="../assets/sidescroller.png"/>
+        <img src="../assets/webOpt.png"/>
+        <img src="../assets/hood.png"/>
+        <img src="../assets/resume.png"/>
       </Carousel>
       </div>
     )
