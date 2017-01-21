@@ -18,7 +18,7 @@ var config = {
    module: {
       loaders: [
          {
-            test: /\.jsx?$/,
+            test: /\.jsx?$|.(png|jpg)$/ ,
             exclude: /node_modules/,
             loader: 'babel',
 

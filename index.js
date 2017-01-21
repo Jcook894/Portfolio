@@ -21517,12 +21517,11 @@
 	        Carousel,
 	        null,
 	        React.createElement('img', { src: '../assets/hood.png' }),
-	        React.createElement('img', { src: '../assets/reader.png' }),
+	        React.createElement('img', { src: '../assets/resume.png' }),
+	        React.createElement('img', { src: '../assets/sideScroller.png' }),
 	        React.createElement('img', { src: '../assets/frogger.png' }),
-	        React.createElement('img', { src: '../assets/sidescroller.png' }),
-	        React.createElement('img', { src: '../assets/webOpt.png' }),
-	        React.createElement('img', { src: '../assets/hood.png' }),
-	        React.createElement('img', { src: '../assets/resume.png' })
+	        React.createElement('img', { src: '../assets/reader.png' }),
+	        React.createElement('img', { src: '../assets/webOpt.png' })
 	      )
 	    );
 	  }
