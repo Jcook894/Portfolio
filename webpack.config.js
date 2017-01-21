@@ -26,8 +26,14 @@ var config = {
                presets: ['es2015', 'react']
             }
          }
-      ]
+      ],
+      loader: [
+        {
+          test: /\.(png|jpg)$/,
+          loader: 'url?limit=25000'
+        }
+  ]
    }
-}
+};
 
 module.exports = config;
