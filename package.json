@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --hot"
-
   },
   "repository": {
     "type": "git",
@@ -20,5 +19,8 @@
   "dependencies": {
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.12.0"
   }
 }
