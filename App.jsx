@@ -11,7 +11,7 @@ var Skills = React.createClass({
         <p> Hey everyone! My name is Julian and im a junior Front-End Dev with dreams of becoming a Full-stack Developer! As well as making web sites, I love to playing video games and skateboard in my spare time.</p>
 
       <h1> Languages | Frameworks</h1>
-      <p> HTML5, CSS3, Javascript, jQuery, Bootstrap</p>
+      <p> HTML5, CSS3, Javascript, jQuery, Bootstrap, Knockout.js </p>
       </div>
 
       );

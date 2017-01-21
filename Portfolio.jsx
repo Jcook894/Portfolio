@@ -6,11 +6,10 @@ const Slider = React.createClass({
   mixins: [Carousel.ControllerMixin],
   render() {
 
-
     return (
       <div>
 
-        <h2 className="headers page-header style">Featured Work</h2>
+        <h2 className="headers">Featured Work</h2>
       <Carousel>
         <img src="../assets/hood.png"/>
         <img src="../assets/reader.png"/>

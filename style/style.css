@@ -6,6 +6,7 @@ html,body{
 }
 
 p{
+  color:  #00ff00;
   font-size: 20px;
 }
 
@@ -15,7 +16,12 @@ p{
   height: 200px ;
 }
 
-
+.icon{
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 0;
+}
 .footer {
   background-color: black;
   border-radius:  10px;
@@ -59,7 +65,7 @@ box-shadow:         10px 6px 12px 4px rgba(0, 0, 0, 0.62);
 }
 
 #Portfolio{
-  color: #666666;
+  color: black;
   background-color: white;
   padding: 10px 10px 10px 10px;
 }
@@ -74,5 +80,6 @@ box-shadow:         10px 6px 12px 4px rgba(0, 0, 0, 0.62);
   color: inherit;
   background-color: inherit;
   padding: 10px 10px 10px 10px;
+
 
 }
