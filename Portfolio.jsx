@@ -2,12 +2,12 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var Carousel = require('nuka-carousel');
 
-var hood = '../assets/hood.png';
-var reader = '../assets/reader.png';
-var frogger = '../assets/frogger.png';
-var sideScroller = '../assets/sidescroller.png';
-var webOpt = '../assets/webOpt.png';
-var resume  = '../assets/reader.png';
+var hood = require('../assets/hood.png');
+var reader = require('../assets/reader.png');
+var frogger = require('../assets/frogger.png');
+var sideScroller = require('../assets/sidescroller.png');
+var webOpt = require('../assets/webOpt.png');
+var resume  = require('../assets/reader.png');
 
 
 
