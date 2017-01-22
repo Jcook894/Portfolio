@@ -17,7 +17,7 @@ p{
 }
 
 .icon{
-  color: white;
+  color: #00ff00;
   padding-top: 50px;
   padding-bottom: 50px;
   margin-bottom: 0;
@@ -36,10 +36,11 @@ box-shadow:         10px 6px 12px 4px rgba(0, 0, 0, 0.62);
 .jumbotron{
   color: white;
   height: 100%;
-  background-image: url("../assets/skyline.gif");
+  background: url(../assets/skyline.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   padding-top: 150px;
   padding-bottom: 150px;
   margin-bottom: 0;
@@ -52,35 +53,36 @@ box-shadow:         10px 6px 12px 4px rgba(0, 0, 0, 0.62);
 }
 
 #About {
+
   color: white;
   background-color: #666666;
-  padding: 50px 10px 100px 10px;
+  padding: 10px 10px 10px 10px;
 
 
 }
 
 
 .headers {
+  padding: 5px 10px 10px 10px;
   font-family: 'Press Start 2P', monospace;
 }
 
 #Portfolio{
-  height: 90%;
   color: black;
   background-color: white;
   padding: 10px 10px 10px 10px;
 }
 
 #Contact {
-  height: 50%;
-  background: url(../assets/snes.jpeg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   color: inherit;
-  background-color: inherit;
+  background-color: #666666;
   padding: 10px 10px 10px 10px;
 
-
 }
+
+@media (min-width: @screen-sm-min) {
+  #About{
+    font-size: 2em;
+    color: red;
+  }
+ }

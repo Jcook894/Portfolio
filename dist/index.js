@@ -21505,25 +21505,7 @@
 	  mixins: [Carousel.ControllerMixin],
 	  render: function render() {
 
-	    return React.createElement(
-	      'div',
-	      null,
-	      React.createElement(
-	        'h2',
-	        { className: 'headers' },
-	        'Featured Work'
-	      ),
-	      React.createElement(
-	        Carousel,
-	        null,
-	        React.createElement('img', { src: '../assets/hood.png' }),
-	        React.createElement('img', { src: '../assets/resume.png' }),
-	        React.createElement('img', { src: '../assets/sideScroller.png' }),
-	        React.createElement('img', { src: '../assets/frogger.png' }),
-	        React.createElement('img', { src: '../assets/reader.png' }),
-	        React.createElement('img', { src: '../assets/webOpt.png' })
-	      )
-	    );
+	    return React.createElement('div', null, React.createElement('h2', { className: 'headers' }, 'Featured Work'), React.createElement(Carousel, null, React.createElement('img', { src: __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../assets/hood.png\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())) })));
 	  }
 	});
 
@@ -23442,31 +23424,7 @@
 	  displayName: 'Skills',
 
 	  render: function render() {
-	    return React.createElement(
-	      'div',
-	      null,
-	      React.createElement(
-	        'h1',
-	        { className: 'headers' },
-	        'About Me '
-	      ),
-	      React.createElement('img', { className: 'img-circle', src: '../assets/pic.JPG' }),
-	      React.createElement(
-	        'p',
-	        null,
-	        ' Hey everyone! My name is Julian and im a junior Front-End Dev with dreams of becoming a Full-stack Developer! As well as making web sites, I love to playing video games and skateboard in my spare time.'
-	      ),
-	      React.createElement(
-	        'h1',
-	        null,
-	        ' Languages | Frameworks'
-	      ),
-	      React.createElement(
-	        'p',
-	        null,
-	        ' HTML5, CSS3, Javascript, jQuery, Bootstrap, Knockout.js '
-	      )
-	    );
+	    return React.createElement('div', null, React.createElement('h1', { className: 'headers' }, 'About Me '), React.createElement('img', { className: 'img-circle', src: '../assets/pic.JPG' }), React.createElement('p', null, ' Hey everyone! My name is Julian and im a junior Front-End Dev with dreams of becoming a Full-stack Developer! As well as making web sites, I love to playing video games and skateboard in my spare time.'), React.createElement('h1', null, ' Languages | Frameworks'), React.createElement('p', null, ' HTML5, CSS3, Javascript, jQuery, Bootstrap, Knockout.js '));
 	  }
 	});
 

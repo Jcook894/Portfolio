@@ -3,15 +3,15 @@
 
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|VT323" rel="stylesheet">
-
-    <link rel="stylesheet" href="style/animations.css">
-
+    <link rel="stylesheet" media="(max-width: 800px)" href="style/style.css" />
+    <link rel="stylesheet" href="style/animations.css"/>
     <link rel="stylesheet" href="style/style.css" />
   </head>
     <body>
@@ -54,10 +54,22 @@
 <!-- About me contents -->
 
   <div id="About" class="container-fluid slideUp text-center">
+    <h1 class="headers">About Me </h1>
+    <img class="img-circle" src="../assets/pic.JPG"></img>
+    <div>
+      <p> Hey everyone! My name is Julian and im a junior Front-End Dev with dreams of becoming a Full-stack Developer! As well as making web sites, I love to playing video games and skateboard in my spare time.</p>
+
+      <h1> Languages | Frameworks</h1>
+      <p> HTML5, CSS3, Javascript, jQuery, Bootstrap <br/> Knockout.js, React.js, Git, Gulp.js, Webpack. </p>
+    </div>
+
   </div>
 
-<!-- Portfolio contents -->
+<!-- Portfolio/Carousel contents -->
   <div class="container-fluid bg-3 text-center" id="Portfolio">
+    <div id="imgCarousel" class="carousel">
+
+    </div>
 
 
   </div>
@@ -65,15 +77,15 @@
 
 <!-- Contact List -->
 <div id="Contact" class=" text-center">
-  <h1 class="headers" style="color:black;">Contact Me</h1>
-  <p style="font-size: 3em;">
+  <h1 class="headers" style="color: white;">Contact Me</h1>
+  <p style="font-size: 3em; color: white;">
     Follow me!
   </p>
   <a href="https://github.com/Jcook894">
-      <i class="fa fa-github-alt fa-3x icon" aria-hidden="true"></i>
+      <i class="fa fa-github-alt fa-4x icon" aria-hidden="true"></i>
   </a>
 <a href="https://www.linkedin.com/in/juliancook94">
-   <i class="fa fa-linkedin-square fa-3x icon" aria-hidden="true"></i>
+   <i class="fa fa-linkedin-square fa-4x icon" aria-hidden="true"></i>
  </a>
 
 
@@ -82,11 +94,11 @@
 
 
 <!-- Footer content -->
-<div class="container-fluid text-center" style="background-color: black;">
+<div class="container-fluid text-center" style="background-color: black; color: white;">
   <footer class="footer">
-  <p> jcook894@icloud.com | 860-614-9115 </p>
+  <h4> jcook894@icloud.com | 860-614-9115 </h4>
 
-    <p>Written and coded by: Julian Cook</p>
+    <h4>Written and coded by: Julian Cook</h4>
   </footer>
 </div>
 
@@ -98,7 +110,7 @@
 
 
 
-<script async src="index.js"></script>
+<script async src="../dist/index.js"></script>
 </body>
 
 </html>
