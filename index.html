@@ -42,7 +42,7 @@
 
 <!-- Header for porfolio -->
   <div id="Home" class="jumbotron row" >
-    <div class="container text-center col-md-12">
+    <div class="container text-center col-md-12 col-xs-12">
       <h1 class="headers"> Julian Cook </h1>
       <h2 class="center" style="color: #00ff00;">
         Junior Front-End Web Developer
@@ -72,7 +72,9 @@
     <h1 class="headers">Featured Work</h1>
     <div class="col-md-4">
       <div class="thumbnail">
-        <img src="assets/hood.png" />
+        <a href="assets/hood.png" class="fancybox" rel="group">
+        <img class="img-responsive"src="assets/hood.png" />
+        </a>
         <p class="caption">
           Neighboorhood project
         </p>
@@ -80,8 +82,10 @@
   </div>
 
   <div class="col-md-4">
-    <div class="thumbnail">
-      <img src="assets/sidescroller.png" />
+    <div class="thumbnail" >
+      <a href="assets/sidescroller.png" class="fancybox" rel="group">
+        <img  class="img-responsive" src="assets/sidescroller.png" />
+      </a>
       <p class="caption">
         Side Scroller Arcade Game
       </p>
@@ -90,7 +94,9 @@
 
 <div class="col-md-4">
   <div class="thumbnail">
-    <img src="assets/resume.png" />
+    <a href="assets/resume.png" class="fancybox" rel="group" >
+      <img class="img-responsive" src="assets/resume.png" />
+    </a>
     <p class="caption">
       My resume
     </p>
@@ -99,7 +105,9 @@
 
 <div class="col-md-4">
   <div class="thumbnail">
-    <img src="assets/reader.png" />
+    <a href="assets/reader.png" class="fancybox" rel="group">
+      <img class="img-responsive" src="assets/reader.png" />
+    </a>
     <p class="caption">
       Testing the feed reader with Jasmine Framework.
     </p>
@@ -108,7 +116,9 @@
 
 <div class="col-md-4">
   <div class="thumbnail">
-    <img src="assets/webOpt.png" />
+    <a href="assets/webOpt.png" class="fancybox" rel="group">
+      <img class="img-responsive" src="assets/webOpt.png" />
+    </a>
     <p class="caption">
       Web Optimization Project
     </p>
@@ -117,7 +127,9 @@
 
 <div class="col-md-4">
   <div class="thumbnail">
-    <img src="assets/frogger.png" />
+    <a href="assets/frogger.png" class="fancybox" rel="group">
+      <img class="img-responsive"src="assets/frogger.png" />
+    </a>
     <p class="caption">
       Frogger-style Arcade Game
     </p>
@@ -130,7 +142,9 @@
 
 
 <!-- Contact List -->
-<div id="Contact" class=" text-center">
+<div class="row">
+
+<div id="Contact" class="text-center col-md-12">
   <h1 class="headers" style="color: white;">Contact Me</h1>
   <p style="font-size: 3em; color:  #00ff00;">
     Follow me!
@@ -144,10 +158,12 @@
 
 
 
+  </div>
 </div>
 
-
 <!-- Footer content -->
+<div class="row">
+
 <div class="container-fluid text-center" style="background-color: black; color: #00ff00;">
   <footer class="footer">
   <h4> jcook894@icloud.com | 860-614-9115 </h4>
@@ -155,16 +171,32 @@
     <h4>Written and coded by: Julian Cook</h4>
   </footer>
 </div>
-
+</div>
 <!-- Modal Content -->
 
 
 <!-- React Test -->
 
 
-
-
 <script async src="../dist/index.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+
+
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="lib/jquery.mousewheel.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="source/jquery.fancybox.css?v=2.1.6" type="text/css" media="screen" />
+<script type="text/javascript" src="source/jquery.fancybox.pack.js?v=2.1.6"></script>
+
 </body>
 
 </html>
