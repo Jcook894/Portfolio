@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Jcook894/Portfolio#readme",
   "dependencies": {
+    "rc-progress": "^2.0.6",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
   },

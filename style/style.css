@@ -10,6 +10,9 @@ p{
   font-size: 20px;
 }
 
+img{
+  height: 25%;
+}
 
 .img-circle {
   height: 200px;
@@ -38,8 +41,6 @@ box-shadow:         10px 6px 12px 4px rgba(0, 0, 0, 0.62);
 }
 
 .jumbotron{
-  color: white;
-  height: 100%;
   background: url(../assets/skyline.gif) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -52,13 +53,8 @@ box-shadow:         10px 6px 12px 4px rgba(0, 0, 0, 0.62);
 }
 
 .subSect{
-  color: white;
-  height: 25%;
-  background: url(../assets/featwork.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  color: black;
+  background-color: white;
   padding: 30px 0;
 
 
@@ -73,8 +69,7 @@ box-shadow:         10px 6px 12px 4px rgba(0, 0, 0, 0.62);
 
   color: white;
   background-color: #666666;
-  padding: 10px 10px 0px 10px;
-
+  padding: 10px 10px 10px 10px;
 
 }
 
@@ -83,6 +78,7 @@ box-shadow:         10px 6px 12px 4px rgba(0, 0, 0, 0.62);
   padding: 5px 10px 10px 10px;
   font-family: 'Press Start 2P', monospace;
 }
+
 
 
 #Contact {
