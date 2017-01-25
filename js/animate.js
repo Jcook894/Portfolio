@@ -173,5 +173,33 @@ $('#proj6').each(function(){
 });
 
 
+//Contact Me animations.
+
+$('#contHeader').each(function(){
+      var imagePos = $(this).offset().top;
+
+      var topOfWindow = $(window).scrollTop();
+        if (imagePos < topOfWindow+700) {
+          $(this).addClass("expandUp");
+        }
+
+});
+
+$('#follow').each(function(){
+      var imagePos = $(this).offset().top;
+
+      var topOfWindow = $(window).scrollTop();
+        if (imagePos < topOfWindow+700) {
+          $(this).addClass("expandUp");
+        }
+
+});
+
+//Button Animations.
+
+$('#buttons').click(function() {
+		$(this).addClass("pulse");
+	});
+
 
 });
