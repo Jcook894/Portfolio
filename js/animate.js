@@ -197,9 +197,13 @@ $('#follow').each(function(){
 
 //Button Animations.
 
-$('#buttons').click(function() {
+$('#button').click(function() {
 		$(this).addClass("pulse");
 	});
+
+  $('#button1').click(function() {
+  		$(this).addClass("pulse");
+  	});
 
 
 });
