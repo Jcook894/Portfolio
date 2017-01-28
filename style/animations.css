@@ -147,8 +147,8 @@ slideLeft
 	animation-name: slideLeft;
 	-webkit-animation-name: slideLeft;
 
-	animation-duration: 2.5s;
-	-webkit-animation-duration: 2.5s;
+	animation-duration: 3.0s;
+	-webkit-animation-duration: 3.0s;
 
 	animation-timing-function: ease-in-out;
 	-webkit-animation-timing-function: ease-in-out;
@@ -209,8 +209,8 @@ slideRight
 	animation-name: slideRight;
 	-webkit-animation-name: slideRight;
 
-	animation-duration: 1s;
-	-webkit-animation-duration: 1s;
+	animation-duration: 3.0s;
+	-webkit-animation-duration: 3.0s;
 
 	animation-timing-function: ease-in-out;
 	-webkit-animation-timing-function: ease-in-out;
@@ -271,8 +271,8 @@ slideExpandUp
 	animation-name: slideExpandUp;
 	-webkit-animation-name: slideExpandUp;
 
-	animation-duration: 2.0s;
-	-webkit-animation-duration: 2.0s;
+	animation-duration: 2.3s;
+	-webkit-animation-duration: 2.3s;
 
 	animation-timing-function: ease-out;
 	-webkit-animation-timing-function: ease -out;
