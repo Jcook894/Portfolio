@@ -17,18 +17,8 @@ $(window).scroll(function() {
 		});
 });
 
-    // Scroll animations for skills, will stretch left and right.
+// Scroll animations for skills, will stretch left and right.
   $(window).scroll(function(){
-
-    $('#skillHeader').each(function(){
-          var imagePos = $(this).offset().top;
-
-          var topOfWindow = $(window).scrollTop();
-            if (imagePos < topOfWindow+720) {
-              $(this).addClass("fadeIn");
-            }
-
-    });
 
       $('#html').each(function(){
           var imagePos = $(this).offset().top;
@@ -103,16 +93,6 @@ $('#react').each(function(){
 
 $('#proj1').each(function(){
 
-  $('#projHeader').each(function(){
-        var imagePos = $(this).offset().top;
-
-        var topOfWindow = $(window).scrollTop();
-          if (imagePos < topOfWindow+720) {
-            $(this).addClass("fadeIn");
-          }
-
-  });
-
       var imagePos = $(this).offset().top;
 
       var topOfWindow = $(window).scrollTop();
@@ -146,7 +126,7 @@ $('#proj4').each(function(){
       var imagePos = $(this).offset().top;
 
       var topOfWindow = $(window).scrollTop();
-        if (imagePos < topOfWindow+720) {
+        if (imagePos < topOfWindow+710) {
           $(this).addClass("slideExpandUp");
         }
 
@@ -156,7 +136,7 @@ $('#proj5').each(function(){
       var imagePos = $(this).offset().top;
 
       var topOfWindow = $(window).scrollTop();
-        if (imagePos < topOfWindow+720) {
+        if (imagePos < topOfWindow+710) {
           $(this).addClass("slideExpandUp");
         }
 
@@ -166,7 +146,7 @@ $('#proj6').each(function(){
       var imagePos = $(this).offset().top;
 
       var topOfWindow = $(window).scrollTop();
-        if (imagePos < topOfWindow+720) {
+        if (imagePos < topOfWindow+710) {
           $(this).addClass("slideExpandUp");
         }
 
@@ -179,7 +159,7 @@ $('#contHeader').each(function(){
       var imagePos = $(this).offset().top;
 
       var topOfWindow = $(window).scrollTop();
-        if (imagePos < topOfWindow+720) {
+        if (imagePos < topOfWindow+710) {
           $(this).addClass("expandUp");
         }
 
@@ -189,7 +169,7 @@ $('#follow').each(function(){
       var imagePos = $(this).offset().top;
 
       var topOfWindow = $(window).scrollTop();
-        if (imagePos < topOfWindow+720) {
+        if (imagePos < topOfWindow+710) {
           $(this).addClass("expandUp");
         }
 
@@ -197,11 +177,11 @@ $('#follow').each(function(){
 
 //Button Animations.
 
-$('#button').click(function() {
+$('#button').hover(function() {
 		$(this).addClass("pulse");
 	});
 
-  $('#button1').click(function() {
+  $('#button1').hover(function() {
   		$(this).addClass("pulse");
   	});
 
