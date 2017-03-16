@@ -23,6 +23,8 @@ img:hover{
   height: 200px;
   width: 200px;
   display: block;
+  margin-top: -125px;
+  margin-bottom: 45px;
   margin-left: auto;
   margin-right: auto;
 }
