@@ -152,6 +152,26 @@ $('#proj6').each(function(){
 
 });
 
+$('#proj7').each(function(){
+      var imagePos = $(this).offset().top;
+
+      var topOfWindow = $(window).scrollTop();
+        if (imagePos < topOfWindow+710) {
+          $(this).addClass("slideExpandUp");
+        }
+
+});
+
+$('#proj8').each(function(){
+      var imagePos = $(this).offset().top;
+
+      var topOfWindow = $(window).scrollTop();
+        if (imagePos < topOfWindow+710) {
+          $(this).addClass("slideExpandUp");
+        }
+
+});
+
 
 //Contact Me animations.
 
