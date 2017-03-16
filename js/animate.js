@@ -172,6 +172,16 @@ $('#proj8').each(function(){
 
 });
 
+$('#proj9').each(function(){
+      var imagePos = $(this).offset().top;
+
+      var topOfWindow = $(window).scrollTop();
+        if (imagePos < topOfWindow+710) {
+          $(this).addClass("slideExpandUp");
+        }
+
+});
+
 
 
 
