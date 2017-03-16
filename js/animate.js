@@ -189,6 +189,7 @@ $('#proj9').each(function(){
 
 $('#button').hover(function() {
 		$(this).addClass("pulse");
+    $("pulse").unbind('mouseenter').bind('mouseleave');
 	});
 
   $('#button1').hover(function() {
