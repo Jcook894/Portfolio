@@ -173,27 +173,7 @@ $('#proj8').each(function(){
 });
 
 
-//Contact Me animations.
 
-$('#contHeader').each(function(){
-      var imagePos = $(this).offset().top;
-
-      var topOfWindow = $(window).scrollTop();
-        if (imagePos < topOfWindow+710) {
-          $(this).addClass("expandUp");
-        }
-
-});
-
-$('#follow').each(function(){
-      var imagePos = $(this).offset().top;
-
-      var topOfWindow = $(window).scrollTop();
-        if (imagePos < topOfWindow+710) {
-          $(this).addClass("expandUp");
-        }
-
-});
 
 //Button Animations.
 
