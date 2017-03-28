@@ -89,6 +89,16 @@ $('#react').each(function(){
 
 });
 
+$('#redux').each(function(){
+      var imagePos = $(this).offset().top;
+
+      var topOfWindow = $(window).scrollTop();
+        if (imagePos < topOfWindow+720) {
+          $(this).addClass("stretchRight");
+        }
+
+});
+
 //Portfolio animations.
 
 $('#proj1').each(function(){
