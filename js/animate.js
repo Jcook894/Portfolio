@@ -94,7 +94,7 @@ $('#redux').each(function(){
 
       var topOfWindow = $(window).scrollTop();
         if (imagePos < topOfWindow+720) {
-          $(this).addClass("stretchRight");
+          $(this).addClass("stretchLeft");
         }
 
 });
