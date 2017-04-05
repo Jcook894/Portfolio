@@ -119,20 +119,28 @@ box-shadow:         10px 6px 12px 4px rgba(0, 0, 0, 0.62);
   }
 
  }
- @media screen and (max-width: 700px) {
+ @media screen and (max-width: 700px){
      .jumbotron{
+       height: 120%;
        padding-top: 10px;
 
      }
 
      .img-circle{
-       height: 150px;
-       width: 150px;
-       border: 1px solid red;
+       height: 200px;
+       width: 200px;
+       border: 1px solid white;
        display: block;
-       margin-top: -125px;
+       margin-top: -100px;
        margin-bottom: 45px;
        margin-left: auto;
        margin-right: auto;
      }
+    .center{
+      padding: 100px 0;
+    }
+
+    .headers{
+      padding-top: 100px;
+    }
  }
