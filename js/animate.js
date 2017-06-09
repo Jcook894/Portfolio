@@ -101,7 +101,8 @@ $('#redux').each(function(){
 
 //Portfolio animations.
 
-$('#proj1').each(function(){
+$(function(){
+$('#proj1, #proj2 ,#proj3 ,#proj4, #proj5, #proj6, #proj7, #proj8, #proj9, #proj10').each(function(){
 
       var imagePos = $(this).offset().top;
 
@@ -111,100 +112,7 @@ $('#proj1').each(function(){
         }
 
 });
-
-$('#proj2').each(function(){
-      var imagePos = $(this).offset().top;
-
-      var topOfWindow = $(window).scrollTop();
-        if (imagePos < topOfWindow+720) {
-          $(this).addClass("slideExpandUp");
-        }
-
 });
-
-$('#proj3').each(function(){
-      var imagePos = $(this).offset().top;
-
-      var topOfWindow = $(window).scrollTop();
-        if (imagePos < topOfWindow+720) {
-          $(this).addClass("slideExpandUp");
-        }
-
-});
-
-$('#proj4').each(function(){
-      var imagePos = $(this).offset().top;
-
-      var topOfWindow = $(window).scrollTop();
-        if (imagePos < topOfWindow+710) {
-          $(this).addClass("slideExpandUp");
-        }
-
-});
-
-$('#proj5').each(function(){
-      var imagePos = $(this).offset().top;
-
-      var topOfWindow = $(window).scrollTop();
-        if (imagePos < topOfWindow+710) {
-          $(this).addClass("slideExpandUp");
-        }
-
-});
-
-$('#proj6').each(function(){
-      var imagePos = $(this).offset().top;
-
-      var topOfWindow = $(window).scrollTop();
-        if (imagePos < topOfWindow+710) {
-          $(this).addClass("slideExpandUp");
-        }
-
-});
-
-$('#proj7').each(function(){
-      var imagePos = $(this).offset().top;
-
-      var topOfWindow = $(window).scrollTop();
-        if (imagePos < topOfWindow+710) {
-          $(this).addClass("slideExpandUp");
-        }
-
-});
-
-$('#proj8').each(function(){
-      var imagePos = $(this).offset().top;
-
-      var topOfWindow = $(window).scrollTop();
-        if (imagePos < topOfWindow+710) {
-          $(this).addClass("slideExpandUp");
-        }
-
-});
-
-$('#proj9').each(function(){
-      var imagePos = $(this).offset().top;
-
-      var topOfWindow = $(window).scrollTop();
-        if (imagePos < topOfWindow+710) {
-          $(this).addClass("slideExpandUp");
-        }
-
-});
-
-$('#proj10').each(function(){
-      var imagePos = $(this).offset().top;
-
-      var topOfWindow = $(window).scrollTop();
-        if (imagePos < topOfWindow+710) {
-          $(this).addClass("slideExpandUp");
-        }
-
-});
-
-
-
-
 
 //Button Animations.
 
