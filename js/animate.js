@@ -36,10 +36,7 @@ $(document).ready(function() {
 
     });
 
-
-
 //Portfolio animations.
-
 $(function(){
   $('#proj1, #proj2 ,#proj3 ,#proj4, #proj5, #proj6, #proj7, #proj8, #proj9, #proj10').each(function(){
 
@@ -51,4 +48,5 @@ $(function(){
         }
 
       });
+ });
 });
