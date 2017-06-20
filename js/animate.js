@@ -2,7 +2,7 @@
 //Fancy box for Thumbnail imgs
 $(document).ready(function() {
   $(".fancybox").fancybox();
-});
+
 
 
 // Scroll animations for skills, will stretch left and right.
@@ -49,4 +49,6 @@ $(function(){
 
       });
  });
+});
+
 });
