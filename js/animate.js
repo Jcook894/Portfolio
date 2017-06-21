@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 
 // Scroll animations for skills, will stretch left and right.
-  $(window).scroll(function(){
+  $(document).ready(function(){
 
     $('.animateUp').each(function(){
     var imagePos = $(this).offset().top;
