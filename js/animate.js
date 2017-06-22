@@ -16,6 +16,9 @@ $(document).ready(function() {
         $(this).addClass("fadeIn");
       }
     });
+  });
+
+    $(document).scroll(function(){
 
       $("#left-bar1, #left-bar2, #left-bar3, #left-bar4").each(function(){
           var imagePos = $(this).offset().top;
@@ -49,4 +52,5 @@ $(function(){
 
       });
  });
+});
 });
