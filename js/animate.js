@@ -1,4 +1,6 @@
 
+
+
 //Fancy box for Thumbnail imgs
 $(document).ready(function() {
   $(".fancybox").fancybox();
