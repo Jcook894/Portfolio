@@ -1,3 +1,60 @@
+//Fancy box for Thumbnail imgs
+$(document).ready(function() {
+  $(".fancybox").fancybox();
+});
+
+
+// Scroll animations for skills, will stretch left and right.
+  $(document).ready(function(){
+
+    $('.animateUp').each(function(){
+    var imagePos = $(this).offset().top;
+
+    var topOfWindow = $(window).scrollTop();
+      if (imagePos < topOfWindow+720) {
+        $(this).addClass("fadeIn");
+      }
+    });
+  });
+
+    $(document).scroll(function(){
+
+      $("#left-bar1, #left-bar2, #left-bar3, #left-bar4").each(function(){
+          var imagePos = $(this).offset().top;
+
+          var topOfWindow = $(window).scrollTop();
+            if (imagePos < topOfWindow+720) {
+              $(this).addClass("stretchRight");
+            }
+});
+
+      $('#right-bar1, #right-bar2, #right-bar3, #right-bar4').each(function(){
+            var imagePos = $(this).offset().top;
+
+            var topOfWindow = $(window).scrollTop();
+              if (imagePos < topOfWindow+720) {
+                $(this).addClass("stretchLeft");
+              }
+
+    });
+
+//Portfolio animations.
+$(function(){
+  $('#proj1, #proj2 ,#proj3 ,#proj4, #proj5, #proj6, #proj7, #proj8, #proj9, #proj10').each(function(){
+
+      var imagePos = $(this).offset().top;
+
+      var topOfWindow = $(window).scrollTop();
+        if (imagePos < topOfWindow+720) {
+          $(this).addClass("slideExpandUp");
+        }
+
+      });
+ });
+});
+
+
+
 /*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
 (function(s,H,f,w){var K=f("html"),q=f(s),p=f(H),b=f.fancybox=function(){b.open.apply(this,arguments)},J=navigator.userAgent.match(/msie/i),C=null,t=H.createTouch!==w,u=function(a){return a&&a.hasOwnProperty&&a instanceof f},r=function(a){return a&&"string"===f.type(a)},F=function(a){return r(a)&&0<a.indexOf("%")},m=function(a,d){var e=parseInt(a,10)||0;d&&F(a)&&(e*=b.getViewport()[d]/100);return Math.ceil(e)},x=function(a,b){return m(a,b)+"px"};f.extend(b,{version:"2.1.5",defaults:{padding:15,margin:20,
 width:800,height:600,minWidth:100,minHeight:100,maxWidth:9999,maxHeight:9999,pixelRatio:1,autoSize:!0,autoHeight:!1,autoWidth:!1,autoResize:!0,autoCenter:!t,fitToView:!0,aspectRatio:!1,topRatio:0.5,leftRatio:0.5,scrolling:"auto",wrapCSS:"",arrows:!0,closeBtn:!0,closeClick:!1,nextClick:!1,mouseWheel:!0,autoPlay:!1,playSpeed:3E3,preload:3,modal:!1,loop:!0,ajax:{dataType:"html",headers:{"X-fancyBox":!0}},iframe:{scrolling:"auto",preload:!0},swf:{wmode:"transparent",allowfullscreen:"true",allowscriptaccess:"always"},
